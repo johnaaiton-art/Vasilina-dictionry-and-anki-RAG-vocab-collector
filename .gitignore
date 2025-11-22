@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+dist/
+*.egg-info/
+
+# Logs
+*.log
+dict_bot.log
+anki_bot.log
+
+# Environment variables
+.env
+.env.local
+
+# Google credentials (never commit!)
+*.json
+credentials.json
+service-account.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temp files
+temp/
+tmp/
+*.tmp
